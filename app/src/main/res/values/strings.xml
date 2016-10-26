@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Operation Loader Demo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="logging_in">Logging in…</string>
+    <string name="logged_in_welcome">Welcome back, %1$s!</string>
+</resources>
