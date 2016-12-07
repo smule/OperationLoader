@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OperationLoaderDemo2.iml" filepath="$PROJECT_DIR$/OperationLoaderDemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OperationLoaderDemo.iml" filepath="$PROJECT_DIR$/OperationLoaderDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/operationloader/operationloader.iml" filepath="$PROJECT_DIR$/operationloader/operationloader.iml" />
     </modules>

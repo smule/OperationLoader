@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // We need to wait for the user to "login" to update the UI
-        mOperationLoader.addOperation(new Operation("UPDATE_UI", Collections.singletonList("NETWORK_LOGIN")) {
+        mOperationLoader.addOperation(new Operation("UPDATE_UI", new String [] { "NETWORK_LOGIN" }) {
             @Override
             protected void onReady(@NonNull final List<OperationStatus> statuses) {
                 runOnUiThread(new Runnable() {
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // This operation also depends on the login, but is a higher priority so it will be run first.
-        mOperationLoader.addOperation(new Operation("UPDATE_USERNAME", Collections.singletonList("NETWORK_LOGIN"), 10) {
+        mOperationLoader.addOperation(new Operation("UPDATE_USERNAME", new String [] { "NETWORK_LOGIN" }, 10) {
             @Override
             protected void onReady(@NonNull final List<OperationStatus> statuses) {
                 mUserName = "Sophia";
